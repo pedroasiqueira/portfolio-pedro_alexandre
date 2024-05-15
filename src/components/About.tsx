@@ -10,8 +10,7 @@ export default function About() {
       </p>
 
       <p>
-        Ainda não tenho experiência profissional na área de tecnologia, mas durante o meu 1 ano de formação na trybe, simulei um ambiente de trabalho, com prazos de entregas, projetos individuais e em grupo, fazendo daily meeting com um Product Manager e o próprio grupo. Sem ter nenhum projeto guiado. Todos os projetos precisei desenvolver do 0, quebrar a cabeça para conseguir entregar e com testes.
-        E por fim, estou aqui atrás da primeira oportunidade de emprego na área, para que eu possa crescer junto com essa empresa.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, vero explicabo. Accusantium eveniet quo, tempore ex quaerat iste cupiditate, placeat blanditiis id corrupti consequatur. Repudiandae, quia. Perspiciatis, unde maxime? Hic! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur alias quidem ipsa ullam sunt distinctio vitae, veritatis esse architecto sed tenetur quos at dolore qui soluta sapiente necessitatibus enim et. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, eveniet amet tempora delectus eaque veritatis dicta doloribus quaerat libero eligendi cupiditate fugit beatae ab ipsa porro placeat ipsum, voluptatem explicabo.
       </p>
 
     </section>
