@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+Projeto.md
+propriedades.md
+src/css/appsalvo.css

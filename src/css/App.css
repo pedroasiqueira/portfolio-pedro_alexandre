@@ -5,80 +5,118 @@
 }
 
 body {
-  /* background-color: red; */
+  /* background-color: pink; */
   /* max-width: 1000px; */
 }
 
-.header-pag {
-  background-color: rgb(104, 107, 207);
-  padding: 5px 0;
-  margin-left: auto;
-  margin-right: auto;
-  position: fixed;
-  width: 100%;
-  /* border-radius: 10px; */
-  /* max-width: 90%; */
+@media screen and (max-width: 425px){
+  .header-pag {
+    display: none;
+  }
+
+  .main-pag {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* width: 80%; */
+    margin-left: 20px;
+    margin-right: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: solid green; */
+  }
+  
+  .about {
+    text-align: center;
+    margin-top: 10px;
+    /* quando cel tiver usando coloca 60px na margin */
+    /* border: 3px solid black; */
+  }
+  
+  .skills-and-projects {
+    text-align: center;
+    margin-top: 40px;
+    border: 3px solid black;
+  }
 }
 
-.navMenu {
-  display: flex;
-  justify-content: space-evenly;
-  /* margin-left: 10px; */
-  /* margin-right: 10px; */
-  /* width: 90%; */
-  /* flex-direction: row; */
-  /* background-color: rgb(204, 115, 95); */
+
+
+@media screen and (min-width: 425px){
+  .header-pag {
+    background-color: rgb(104, 107, 207);
+    padding: 2px 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    width: 100%;
+    /* border-radius: 10px; */
+    /* max-width: 90%; */
+  }
+  
+  .navMenu {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* width: 90%; */
+    /* flex-direction: row; */
+    /* background-color: rgb(204, 115, 95); */
+  }
+  
+  .navMenu a { 
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 8, 8);
+  }
+  
+  .navMenu a:hover { 
+    opacity: 0.5;
+    background-color: aqua;
+    /* padding: 10px; Só quero que aumente um. Provavelmente vou ter que fazer no código */
+  }
+  
+  .navMenu a:active { 
+    opacity: 0.9;
+    /* background-color: rgb(234, 234, 234); */
+    /* border: solid rgb(255, 255, 255); */
+    flex: 1 auto;
+    text-align: center;
+  }
+  
+  .main-pag {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .about {
+    text-align: center;
+    margin-top: 50px;
+    /* quando cel tiver usando coloca 60px na margin */
+    /* border: 3px solid black; */
+  }
+  
+  .skills-and-projects {
+    text-align: center;
+    margin-top: 40px;
+    border: 3px solid black;
+  }
 }
 
-.navMenu a { 
-  color: black;
-  padding: 5px;
-  border-radius: 10px;
-  border: 1px solid rgb(8, 8, 8);
+@media screen and (min-width: 992px){
+  .main-pag {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
-/* .navMenu li { 
-  display: inline-flex;
+
+/* @media screen and (min-width: 1200px){
+  body {
+    max-width: 1200px;
+  }
 } */
-
-.navMenu a:hover { 
-  opacity: 0.5;
-  background-color: aqua;
-  /* padding: 10px; Só quero que aumente um. Provavelmente vou ter que fazer no código */
-}
-
-.navMenu a:active { 
-  opacity: 0.9;
-  background-color: rgb(234, 234, 234);
-  /* border: solid rgb(255, 255, 255); */
-}
-
-.main-pag {
-  display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-  margin-right: 50px;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* border: solid green; */
-}
-
-.about {
-  text-align: center;
-  margin-top: 50px;
-  /* border: 3px solid black; */
-}
-
-.skills-and-projects {
-  text-align: center;
-  margin-top: 40px;
-  border: 3px solid black;
-}
-
-  /* .skills {
-
-}
-
-  .projects {
-    
-  } */

@@ -9,4 +9,5 @@ Para deixar esses links de navegação um ao lado do outro e se tornarem uma lis
 Que é o que eles são.
 
 
-Como fazer para centralizar um texto de uma página web
+Quero centralizar a minha página toda e colocar um tamanho máximo que ela possa "esticar."
+Quando eu coloco um max-width no body, a página fica no centro até certo ponto, mas depois de um certo ponto ele fica para de ficar centralizado
