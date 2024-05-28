@@ -4,9 +4,60 @@
   padding: 0;
 }
 
-@media screen and (max-width: 425px){
-  .header-pag {
+/* body {
+  width: 100vw;
+  height: 100vh;
+} */
+
+@media screen and (max-width: 600px){
+  .header-pag .navMenu{
     display: none;
+  }
+  
+  .header-pag{
+    height: 70px;
+    display: flex;
+    background-color: #1A202C;
+  }
+
+  .fabars{
+    position: fixed;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .fatimes{
+    position: fixed;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .aside-menu {
+    background-color: #171923;
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    animation: showSideBar .4s;
+    opacity: 0.95;
+  }
+
+  @keyframes showSideBar {
+    from {
+      opacity: 0;
+      width: 0;
+    }
+    to{
+      opacity: 0.95;
+      width: 300px;
+    }
   }
 
   .main-pag {
@@ -31,7 +82,7 @@
 
 
 
-@media screen and (min-width: 425px){
+/* @media screen and (min-width: 425px){
   .header-pag {
     background-color: rgb(104, 107, 207);
     padding: 2px 0;
@@ -93,7 +144,12 @@
 
 
 @media screen and (min-width: 1200px){
-  body {
-    max-width: 1200px;
+  .main-pag {
+    width: 100vw;
   }
-}
+
+  .main-pag section {
+    max-width: 1200px;
+    align-self: center;
+  }
+} */
