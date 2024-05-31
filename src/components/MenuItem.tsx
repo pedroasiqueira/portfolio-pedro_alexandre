@@ -1,6 +1,6 @@
 import { IconType } from "react-icons"
 
-type MenuItemProps = {
+export type MenuItemProps = {
   Icon: IconType,
   Text: string,
 }
