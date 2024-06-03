@@ -91,6 +91,7 @@
   .main-pag {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     align-content: center;
     margin-left: 20px;
     margin-right: 20px;
@@ -107,15 +108,23 @@
     border: 3px solid black;
   }
 
+  .skills-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .skills-item {
-    /* display: flex; */
-    align-items: end;
-    font-size: 12px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    font-size: 12px;
+    list-style: none;
   }
 
   .skills-item-icon {
-    /* display: flex; */
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 

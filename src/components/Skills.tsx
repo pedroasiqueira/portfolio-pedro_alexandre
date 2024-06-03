@@ -24,8 +24,8 @@ import SkillsItem from "./SkillsItem";
 
 export default function Skills() {
   return(
-    <section className="skills-and-projects skills">
-      <div>
+    <section className="skills-section">
+      <ul>
         <SkillsItem Icon={IoLogoJavascript} Text="JavaScript" />
         <SkillsItem Icon={BiLogoTypescript} Text="Typescript" />
         <SkillsItem Icon={SiPython} Text="JavaScript" />
@@ -43,7 +43,7 @@ export default function Skills() {
         <SkillsItem Icon={DiDjango} Text="JavaScript" />
         <SkillsItem Icon={FaGithub} Text="JavaScript" />
         <SkillsItem Icon={FaDocker} Text="JavaScript" />
-      </div>
+      </ul>
     </section>
   )
 }
