@@ -1,7 +1,7 @@
-import About from "./About";
+import About from "./About/About";
 // import AsideMenu from "./AsideMenu";
-import Projects from "./Projects";
-import Skills from "./Skills";
+import Projects from "./Projects/Projects";
+import Skills from "./Skills/Skills";
 
 export default function Main() {
   return(
