@@ -2,6 +2,7 @@ import { useState } from "react";
 import AsideMenu from "./AsideMenu"
 import NavMenu from "./NavMenu"
 import { FaBars } from "react-icons/fa";
+import Logos from "./Logos";
 
 export default function Header() {
   const [sideBar, setSideBar] = useState(false)
@@ -14,6 +15,7 @@ export default function Header() {
       className="fabars"
       onClick={showSideBar} />
       {sideBar && <AsideMenu active={setSideBar}/>}
+      <Logos />
     </header>
   )
 }
