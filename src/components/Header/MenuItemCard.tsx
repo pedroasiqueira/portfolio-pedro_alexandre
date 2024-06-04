@@ -5,7 +5,7 @@ export type MenuItemProps = {
   Text: string,
 }
 
-export default function MenuItem({ Icon, Text }: MenuItemProps) {
+export default function MenuItemCard({ Icon, Text }: MenuItemProps) {
   return(
       <a
       className="menu-item"

@@ -1,6 +1,6 @@
-import { MenuItemProps } from "./MenuItem";
+import { MenuItemProps } from "../Header/MenuItemCard";
 
-export default function SkillsItem ({ Icon, Text }: MenuItemProps) {
+export default function SkillsItemCard ({ Icon, Text }: MenuItemProps) {
   return (
     <li
     className="skills-item"
