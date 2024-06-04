@@ -9,7 +9,7 @@ export default function ProjectCard({name, info, github}: ProjectCardProps) {
     <li
     className="skills-item"
     >
-     <h3>{name}</h3>
+      <h3>{name}</h3>
       <p>{info}</p>
       <a href={github}>Link do projeto</a>
     </li>

@@ -138,6 +138,10 @@
     list-style: none;
   }
 
+  .skills-item-icon:hover{
+    opacity: 0.5;
+  }
+
   .skills-item-icon {
     font-size: 40px;
   }
