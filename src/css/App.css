@@ -49,7 +49,7 @@
     color: white;
     margin: 5px;
   }
-  
+
   .aside-menu {
     background-color: #171923;
     position: fixed;
@@ -143,7 +143,6 @@
     flex-direction: column;
     align-items: center;
     margin: 8px;
-    font-size: 12px;
     list-style: none;
   }
 
@@ -152,7 +151,7 @@
   }
 
   .skills-item-icon {
-    font-size: 40px;
+    font-size: 70px;
   }
 }
 
